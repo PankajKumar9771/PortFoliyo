@@ -43,13 +43,14 @@ const Projects = () => {
                       WonderLust Travelling Website
                     </h6>
                   </div>
-                  <Link
+                  <a
                     className="ad-btn"
                     href="https://wonderlust-major.onrender.com/listings/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -69,13 +70,14 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">Springdale Public School</h6>
                   </div>
-                  <Link
+                  <a
                     className="ad-btn"
                     href="https://school-project-assigment.onrender.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -95,13 +97,14 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">Food Delivery App</h6>
                   </div>
-                  <Link
+                  <a
                     className="ad-btn"
                     href="https://github.com/PankajKumar9771/FoodDelBackend"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
