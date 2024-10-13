@@ -4,7 +4,6 @@ import { Spin } from "react-swift-reveal";
 import WonderLust from "../../assets/images/WonderLust.png";
 import FoodDel from "../../assets/images/FoodDel.png";
 import School from "../../assets/images/School.png";
-
 const Projects = () => {
   return (
     <>
@@ -47,7 +46,6 @@ const Projects = () => {
                     className="ad-btn"
                     href="https://wonderlust-major.onrender.com/listings/"
                     target="_blank"
-                    rel="noopener noreferrer"
                   >
                     View
                   </a>
@@ -74,7 +72,6 @@ const Projects = () => {
                     className="ad-btn"
                     href="https://school-project-assigment.onrender.com/"
                     target="_blank"
-                    rel="noopener noreferrer"
                   >
                     View
                   </a>
@@ -101,7 +98,6 @@ const Projects = () => {
                     className="ad-btn"
                     href="https://github.com/PankajKumar9771/FoodDelBackend"
                     target="_blank"
-                    rel="noopener noreferrer"
                   >
                     View
                   </a>
