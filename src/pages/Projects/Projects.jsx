@@ -4,6 +4,7 @@ import { Spin } from "react-swift-reveal";
 import WonderLust from "../../assets/images/WonderLust.png";
 import FoodDel from "../../assets/images/FoodDel.png";
 import School from "../../assets/images/School.png";
+import { Link } from "react-scroll";
 const Projects = () => {
   return (
     <>
@@ -42,13 +43,13 @@ const Projects = () => {
                       WonderLust Travelling Website
                     </h6>
                   </div>
-                  <a
+                  <Link
                     className="ad-btn"
                     href="https://wonderlust-major.onrender.com/listings/"
                     target="_blank"
                   >
                     View
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -68,13 +69,13 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">Springdale Public School</h6>
                   </div>
-                  <a
+                  <Link
                     className="ad-btn"
                     href="https://school-project-assigment.onrender.com/"
                     target="_blank"
                   >
                     View
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -94,13 +95,13 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">Food Delivery App</h6>
                   </div>
-                  <a
+                  <Link
                     className="ad-btn"
                     href="https://github.com/PankajKumar9771/FoodDelBackend"
                     target="_blank"
                   >
                     View
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
