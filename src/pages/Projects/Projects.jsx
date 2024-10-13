@@ -4,7 +4,7 @@ import { Spin } from "react-swift-reveal";
 import WonderLust from "../../assets/images/WonderLust.png";
 import FoodDel from "../../assets/images/FoodDel.png";
 import School from "../../assets/images/School.png";
-import { Link } from "react-scroll";
+
 const Projects = () => {
   return (
     <>
