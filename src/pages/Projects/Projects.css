@@ -51,36 +51,13 @@
   margin-left: 5px;
 }
 
+.project .card {
+  transition: all 1s ease-in-out;
+}
+
 .project .card:hover {
   background-color: white;
   border-radius: 4px;
-  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
-  transition: all 1s ease;
-}
-
-.ad-btn {
-  text-transform: uppercase;
-  width: 150px;
-  height: 40px;
-  display: block;
-  text-align: center;
-  background-color: #138781;
-  color: white;
-  border-radius: 80px;
-  font-size: 16px;
-  line-height: 35px;
-  text-decoration: none;
-  margin: 20px auto 20px auto;
-  overflow: hidden;
-  position: relative;
-}
-
-.ad-btn:hover {
-  background-color: white;
-  color: #138781;
-  background: transparent;
-  border: 2px solid #138781;
-  transition: all 0.5s ease;
   box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
 }
 
@@ -99,59 +76,53 @@
   }
 }
 
-/* Centering the text */
 .text-centerV {
-  text-align: center; /* Align text to the center */
+  text-align: center;
 }
 
-/* Applying margin auto to center the element */
 .m-autoV {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Transforming text to uppercase */
 .text-uppercaseV {
   text-transform: uppercase;
 }
 
-/* Styling for the card body */
 .card-bodyV {
-  padding: 15px; /* Add padding to create space inside the card */
-  background-color: #fff; /* Ensure the background is white */
-  border-radius: 5px; /* Smooth rounded corners */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow to make the card pop */
-  color: #333; /* Text color */
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  transition: all 0.3s ease;
 }
 
-/* Styling for the card title */
 .ad-titleV {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* Styling for the button */
 .ad-btnV {
-  text-transform: uppercase; /* Transform text to uppercase */
-  width: 150px; /* Set the width */
-  height: 40px; /* Set the height */
-  display: block; /* Block element for proper alignment */
-  text-align: center; /* Center-align the button text */
-  background-color: #138781; /* Button background color */
-  color: white; /* Button text color */
-  border-radius: 80px; /* Rounded button */
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: #138781;
+  color: white;
+  border-radius: 80px;
   font-size: 16px;
-  line-height: 35px; /* Line height for vertical centering */
-  text-decoration: none; /* Remove underline */
-  margin: 20px auto; /* Center the button */
-  transition: all 0.3s ease; /* Smooth transition on hover */
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto;
+  transition: all 0.5s ease-in-out;
 }
 
 .ad-btnV:hover {
-  background-color: white; /* Change background on hover */
-  color: #138781; /* Change text color on hover */
-  border: 2px solid #138781; /* Add border on hover */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  background-color: white;
+  color: #138781;
+  border: 2px solid #138781;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }

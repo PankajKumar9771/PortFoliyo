@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
-import { Rotate } from "react-swift-reveal";
+
 import { LightSpeed } from "react-swift-reveal";
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { toast } from "react-toastify";
@@ -50,7 +50,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
-              <Rotate>
+           
                 <div className="card2 d-flex card border-0 px-4 py-5">
                   <div className="row">
                     <div className="row">
@@ -120,7 +120,7 @@ const Contact = () => {
                     </form>
                   </div>
                 </div>
-              </Rotate>
+              
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { Spin } from "react-swift-reveal";
+import { Fade } from "react-swift-reveal";
 import WonderLust from "../../assets/images/WonderLust.png";
 import FoodDel from "../../assets/images/FoodDel.png";
 import School from "../../assets/images/School.png";
@@ -23,7 +23,7 @@ const Projects = () => {
         </p>
         {/* card design */}
         <div className="row" id="ads">
-          <Spin>
+          <Fade right>
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -64,12 +64,14 @@ const Projects = () => {
                   <span className="card-detail-badge">React</span>
                   <span className="card-detail-badge">NodeJs</span>
                 </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">Springdale Public School</h6>
+                <div className="card-bodyV text-centerV">
+                  <div className="ad-titleV m-autoV">
+                    <h6 className="text-uppercaseV">
+                      Springdale Public School
+                    </h6>
                   </div>
                   <a
-                    className="ad-btn"
+                    className="ad-btnV"
                     href="https://school-project-assigment.onrender.com/"
                     target="_blank"
                   >
@@ -90,12 +92,13 @@ const Projects = () => {
                   <span className="card-detail-badge">React</span>
                   <span className="card-detail-badge">NodeJs</span>
                 </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">Food Delivery App</h6>
+
+                <div className="card-bodyV text-centerV">
+                  <div className="ad-titleV m-autoV">
+                    <h6 className="text-uppercaseV">Food Delivery App</h6>
                   </div>
                   <a
-                    className="ad-btn"
+                    className="ad-btnV"
                     href="https://github.com/PankajKumar9771/FoodDelBackend"
                     target="_blank"
                   >
@@ -104,7 +107,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </Spin>
+          </Fade>
         </div>
       </div>
     </>
