@@ -133,7 +133,7 @@
 }
 
 /* Styling for the button */
-.ad-btn {
+.ad-btnV {
   text-transform: uppercase; /* Transform text to uppercase */
   width: 150px; /* Set the width */
   height: 40px; /* Set the height */
@@ -149,7 +149,7 @@
   transition: all 0.3s ease; /* Smooth transition on hover */
 }
 
-.ad-btn:hover {
+.ad-btnV:hover {
   background-color: white; /* Change background on hover */
   color: #138781; /* Change text color on hover */
   border: 2px solid #138781; /* Add border on hover */

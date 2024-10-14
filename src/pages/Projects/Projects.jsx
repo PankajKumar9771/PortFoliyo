@@ -43,7 +43,7 @@ const Projects = () => {
                     </h6>
                   </div>
                   <a
-                    className="ad-btn"
+                    className="ad-btnV"
                     href="https://wonderlust-major.onrender.com/listings/"
                     target="_blank"
                   >
