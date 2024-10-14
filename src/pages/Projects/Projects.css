@@ -98,3 +98,49 @@
     margin-top: 30px;
   }
 }
+
+
+/* Card Body Styling */
+.card-body {
+  padding: 15px; /* Add some padding inside the card body */
+  background-color: #fff; /* White background to ensure content visibility */
+  border-radius: 5px; /* Optional: rounded corners for the card */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow to make the card stand out */
+  color: #333; /* Text color to ensure visibility against the background */
+  transition: all 0.3s ease; /* Smooth hover effects */
+}
+
+.card-body h6 {
+  font-size: 18px; /* Adjust heading size */
+  font-weight: bold;
+  margin-bottom: 10px; /* Spacing below the heading */
+  color: #138781; /* Match the brand color */
+}
+
+.card-body .ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: #138781; /* Button background color */
+  color: white; /* Button text color */
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto;
+  transition: all 0.3s ease;
+}
+
+.card-body .ad-btn:hover {
+  background-color: white;
+  color: #138781; /* Button text color on hover */
+  border: 2px solid #138781;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow effect */
+}
+
+.card:hover .card-body {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Shadow enhancement on hover */
+}
