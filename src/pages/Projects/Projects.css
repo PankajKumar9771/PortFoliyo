@@ -99,48 +99,59 @@
   }
 }
 
-
-/* Card Body Styling */
-.card-body {
-  padding: 15px; /* Add some padding inside the card body */
-  background-color: #fff; /* White background to ensure content visibility */
-  border-radius: 5px; /* Optional: rounded corners for the card */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow to make the card stand out */
-  color: #333; /* Text color to ensure visibility against the background */
-  transition: all 0.3s ease; /* Smooth hover effects */
+/* Centering the text */
+.text-centerV {
+  text-align: center; /* Align text to the center */
 }
 
-.card-body h6 {
-  font-size: 18px; /* Adjust heading size */
-  font-weight: bold;
-  margin-bottom: 10px; /* Spacing below the heading */
-  color: #138781; /* Match the brand color */
+/* Applying margin auto to center the element */
+.m-autoV {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.card-body .ad-btn {
+/* Transforming text to uppercase */
+.text-uppercaseV {
   text-transform: uppercase;
-  width: 150px;
-  height: 40px;
-  display: block;
-  text-align: center;
+}
+
+/* Styling for the card body */
+.card-bodyV {
+  padding: 15px; /* Add padding to create space inside the card */
+  background-color: #fff; /* Ensure the background is white */
+  border-radius: 5px; /* Smooth rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow to make the card pop */
+  color: #333; /* Text color */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Styling for the card title */
+.ad-titleV {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styling for the button */
+.ad-btn {
+  text-transform: uppercase; /* Transform text to uppercase */
+  width: 150px; /* Set the width */
+  height: 40px; /* Set the height */
+  display: block; /* Block element for proper alignment */
+  text-align: center; /* Center-align the button text */
   background-color: #138781; /* Button background color */
   color: white; /* Button text color */
-  border-radius: 80px;
+  border-radius: 80px; /* Rounded button */
   font-size: 16px;
-  line-height: 35px;
-  text-decoration: none;
-  margin: 20px auto;
-  transition: all 0.3s ease;
+  line-height: 35px; /* Line height for vertical centering */
+  text-decoration: none; /* Remove underline */
+  margin: 20px auto; /* Center the button */
+  transition: all 0.3s ease; /* Smooth transition on hover */
 }
 
-.card-body .ad-btn:hover {
-  background-color: white;
-  color: #138781; /* Button text color on hover */
-  border: 2px solid #138781;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow effect */
-}
-
-.card:hover .card-body {
-  transform: scale(1.05); /* Slight zoom on hover */
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Shadow enhancement on hover */
+.ad-btn:hover {
+  background-color: white; /* Change background on hover */
+  color: #138781; /* Change text color on hover */
+  border: 2px solid #138781; /* Add border on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }

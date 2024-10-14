@@ -36,9 +36,9 @@ const Projects = () => {
                   <span className="card-detail-badge">EJS</span>
                   <span className="card-detail-badge">Mongodb</span>
                 </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">
+                <div className="card-bodyV text-centerV">
+                  <div className="ad-titleV m-autoV">
+                    <h6 className="text-uppercaseV">
                       WonderLust Travelling Website
                     </h6>
                   </div>
